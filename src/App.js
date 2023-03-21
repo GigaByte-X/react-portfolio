@@ -5,6 +5,7 @@ import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Service from "./components/Service/Service";
 import Testimonial from "./components/Testimonial/Testimonial";
+import Work from "./components/work/Work";
 import "./App.css";
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <About />
       <Service />
       <Testimonial />
+      <Work />
       <ScrollToTop smooth />
     </>
   );

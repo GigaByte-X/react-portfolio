@@ -25,7 +25,7 @@ const Testimonial = () => {
             "profile": "https://cdn.discordapp.com/avatars/817515739711406140/f3dc2f4f2922606fbe50734e48fb18dd.png?size=4096",
             "content": "Nice support, Great Development! Always kind and helpful! I would recommend!",
             "name": "Zer0",
-            "rating": "5 Stars"
+            "rating": "4 Stars"
         },
         {
             "profile": "https://cdn.discordapp.com/avatars/935525903549759509/5de5045ace3744312b5360ec0683fe56.png?size=4096",

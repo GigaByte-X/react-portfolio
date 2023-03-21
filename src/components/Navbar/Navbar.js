@@ -1,20 +1,23 @@
 import React from "react";
 import "./navbar.css";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
     return (
         <nav className="navbar-main">
             <ul>
-                <li className="nav-item">Home</li>
-                <li className="nav-item">About</li>
-                <li className="nav-item">Service</li>
-                <li className="nav-item">Career</li>
-                <li className="nav-item">Video</li>
-                <li className="nav-item">Team</li>
-                <li className="nav-item">Testimonial</li>
-                <li className="nav-item">Feedback</li>
-                <li className="nav-item">Contact</li>
-                <li className="nav-item">Subscription</li>
+                <Link to="home" spy={true} smooth={true} offset={100} duration={100}>
+                    <li className="nav-item">Home</li>
+                </Link>
+                <Link to="about" spy={true} smooth={true} offset={100}>
+                    <li className="nav-item">About</li>
+                </Link>
+                <Link to="services" spy={true} smooth={true} offset={100}>
+                    <li className="nav-item">Services</li>
+                </Link>
+                <Link to="testimonial" spy={true} smooth={true} offset={100}>
+                    <li className="nav-item">Testimonial</li>
+                </Link>
             </ul>
         </nav>
     );

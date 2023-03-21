@@ -4,7 +4,7 @@ import about from "../logo512.png";
 import { DiHtml5, DiCss3, DiJsBadge } from "react-icons/di";
 const About = () => {
     return (
-        <div className="container about-section">
+        <div className="container about-section" id="about">
             <div className="row">
                 <div className="col-xs-6 col-lg-6 col-md-12">
 

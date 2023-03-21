@@ -21,6 +21,18 @@ const Testimonial = () => {
             "name": "AudiRo",
             "rating": "5 Stars"
         },
+        {
+            "profile": "https://cdn.discordapp.com/avatars/817515739711406140/f3dc2f4f2922606fbe50734e48fb18dd.png?size=4096",
+            "content": "Nice support, Great Development! Always kind and helpful! I would recommend!",
+            "name": "Zer0",
+            "rating": "5 Stars"
+        },
+        {
+            "profile": "https://cdn.discordapp.com/avatars/935525903549759509/5de5045ace3744312b5360ec0683fe56.png?size=4096",
+            "content": "Fast support.",
+            "name": "NobleRaptor",
+            "rating": "5 Stars"
+        }
     ]
 
     const [showMorePost, setShowMorePost] = useState(3);
@@ -29,7 +41,7 @@ const Testimonial = () => {
     };
 
     return (
-        <div className="container testimonial-section">
+        <div className="container testimonial-section" id="testimonial">
             <div className="section_title">
                 <h5>Testimonials</h5>
                 <span className="line"></span>

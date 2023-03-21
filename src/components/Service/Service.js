@@ -94,7 +94,7 @@ const Service = () => {
     ]
 
     return (
-        <div className="container service-section">
+        <div className="container service-section" id="services">
 
             {/* Section Title */}
 

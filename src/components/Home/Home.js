@@ -4,7 +4,7 @@ import Typewriter from "typewriter-effect";
 
 const Home = () => {
     return (
-        <div className="container-fluid home">
+        <div className="container-fluid home" id="home">
             <div className="container home-content">
                 <h1>I am a <Typewriter options={{ strings: ["Front-End Web Developer", "Server Administrator", "Entreprenuer"], pauseFor: 2500, autoStart: true, loop: true, }} />
                 </h1>

@@ -53,7 +53,7 @@ const Service = () => {
 
             service2: "Administrator",
             price2: "5",
-            description2: "I will Administrate your discord server! This includes all from above, Better Bot Setups, 1 Nitro Classic Giveaway, And More! (NO REFUNDS AFTER GIVEAWAY!)",
+            description2: "I will Administrate your discord server! This includes all from above, Better Bot Setups, 1 Nitro Classic Giveaway, And More!",
 
             service3: "Head Of Staff",
             price3: "7",

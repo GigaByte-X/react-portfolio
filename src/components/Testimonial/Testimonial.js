@@ -14,7 +14,13 @@ const Testimonial = () => {
             "content": "Spectacular customer service. Quick at any support for my bot thats needed. Errors fixed in minutes and great communication. Would definitely recommend ItsGalactic to anyone else",
             "name": "PlantedPurpose",
             "rating": "5 Stars"
-        }
+        },
+        {
+            "profile": "https://cdn.discordapp.com/avatars/590057334668132352/a_3409ad0cf6d1a060d23ca8e969f9cb80.png?size=4096",
+            "content": "I love the Color Combinations, Fast Support, & The fact that the websites are so simple yet so high quality!",
+            "name": "AudiRo",
+            "rating": "5 Stars"
+        },
     ]
 
     const [showMorePost, setShowMorePost] = useState(3);

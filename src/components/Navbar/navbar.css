@@ -7,10 +7,13 @@
     top: 0;
     text-align: center;
     justify-content: right;
+    position: sticky;
+    z-index: 1;
 }
 
 .navbar-main ul {
     display: flex;
+    margin-right: 10%;
 }
 
 .navbar-main ul li {

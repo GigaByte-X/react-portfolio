@@ -1,0 +1,31 @@
+.navbar-main {
+    background-color: #49b0f5;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    top: 0;
+    text-align: center;
+    justify-content: right;
+}
+
+.navbar-main ul {
+    display: flex;
+}
+
+.navbar-main ul li {
+    list-style: none;
+    margin-right: 50px;
+    cursor: pointer;
+    padding-top: 7px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.navbar-main ul li:hover {
+    color: gray;
+}
+
+.navbar-main ul li:active {
+    text-decoration: underline;
+}

@@ -1,5 +1,5 @@
 .home {
-    height: 100vh;
+    height: auto;
     color: #fff;
     background-color: #80c5f3;
     position: relative;
@@ -29,7 +29,7 @@
 .view-details-home-button {
     background-color: purple;
     text-align: center;
-    width: 50%;
+    width: 100%;
     border-radius: 30px;
     padding: 10px;
     transition: 0.5s;

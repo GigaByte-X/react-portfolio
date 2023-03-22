@@ -1,5 +1,5 @@
 .about-section {
-    height: 900px;
+    height: auto;
 }
 
 .about-image img {
@@ -62,4 +62,9 @@
 
 .about-details-icon {
     padding-right: 10px;
+}
+
+.about-image {
+    display: flex;
+    justify-content: center;
 }

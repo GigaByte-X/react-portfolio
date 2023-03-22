@@ -9,7 +9,7 @@ const About = () => {
                 <div className="col-xs-6 col-lg-6 col-md-12">
 
                     <div className="about-image">
-                        <img src={about} height="400px" width="400px" alt="react-logo" />
+                        <img src={about} height="300px" width="300px" alt="react-logo" />
                     </div>
 
                 </div>

@@ -6,6 +6,7 @@ import About from "./components/About/About";
 import Service from "./components/Service/Service";
 import Testimonial from "./components/Testimonial/Testimonial";
 import Jobs from "./components/Jobs/Jobs";
+import Work from "./Work/work";
 import "./App.css";
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Service />
       <Testimonial />
       <Jobs />
+      <Work />
       <ScrollToTop smooth />
     </>
   );

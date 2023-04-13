@@ -1,7 +1,8 @@
 import React from "react";
 import "./about.css";
 import about from "../logo512.png";
-import { DiHtml5, DiCss3, DiJsBadge } from "react-icons/di";
+import { DiHtml5, DiCss3 } from "react-icons/di";
+import { SiCsharp } from "react-icons/si";
 const About = () => {
     return (
         <div className="container about-section" id="about">
@@ -49,11 +50,11 @@ const About = () => {
                         <div className="card-design">
                             <div className="about-list-item">
                                 <div className="about-details-icon">
-                                    <p><DiJsBadge size={50} /></p>
+                                    <p><SiCsharp size={50} /></p>
                                 </div>
                                 <div>
-                                    <h6>JS</h6>
-                                    <p>I still have tons to learn, but I am pretty much good at it!</p>
+                                    <h6>C#</h6>
+                                    <p>Once again, still learning, but I am pretty much great at C# .net and all of the other frameworks.</p>
                                 </div>
                             </div>
                         </div>
